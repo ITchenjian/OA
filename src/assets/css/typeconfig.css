@@ -1,0 +1,29 @@
+/*
+* @Author: Administrator
+* @Date:   2018-03-23 16:26:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-03-23 18:04:48
+*/
+.basepad{
+	padding:0 20px 30px 20px;
+}
+.tab-content h1{
+	padding:0 0 15px;
+	font-size: 15px;
+    color: #299ceb;
+}
+.setleft,.setright{
+	width:35%;
+	/* padding:10px; */
+	/* background: pink; */
+}
+.setleft .e-input {
+    /* width: 360px; */
+}
+
+.setbtn {
+	text-align: center;
+}
+.setbtn .btn{
+	margin:0 15px;
+}

@@ -1,0 +1,19 @@
+vue-cli：
+结构
+1.static	放置的文件（图片），不会打包转换。静态图片建议放入此文件夹，如果发起在assets里,对于css引入图片路径没问题，但img引入不对。
+2.src		放置的文件会打包转换	例如assets里面的文件
+3.dist		运行npm run build后生成的打包文件
+
+知识点
+1.this.$router.push('main');	改变路由
+2.<router-link :to="{path:'/main/sensor/hisdataTemp',query:{typeCode:item.typeCode,devSn:item.onerankdevDevSn}}">	路由传参
+3.v-html可以绑定属性和方法
+4.应用v-for指令注意绑定key值否则会出现警告信息
+
+
+打包修改（绝对路径该相对路径）
+1.config=>index中的assetsPublicPath: './',(原为/)	保证打包后文件引用路径正确
+2.build=>utils中的generateLoaders下添加	publicPath:'../../'	保证打包后css文件引用图片路径正确
+
+
+npm install

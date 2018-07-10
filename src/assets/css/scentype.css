@@ -1,0 +1,98 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-27 17:44:13
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-15 16:33:29
+*/
+body{  
+    scrollbar-arrow-color: #fff; /**//*三角箭头的颜色*/   
+    scrollbar-face-color: #fff; /**//*立体滚动条的颜色*/   
+    scrollbar-3dlight-color: #fff; /**//*立体滚动条亮边的颜色*/   
+    scrollbar-highlight-color: #fff; /**//*滚动条空白部分的颜色*/   
+    scrollbar-shadow-color: #fff; /**//*立体滚动条阴影的颜色*/   
+    scrollbar-darkshadow-color: #fff; /**//*立体滚动条强阴影的颜色*/   
+    scrollbar-track-color: #fff; /**//*立体滚动条背景颜色*/   
+    scrollbar-base-color:#fff; /**//*滚动条的基本颜色*/   
+}
+body{
+	overflow: auto;
+}
+.lbox{
+	overflow-y:auto;
+	overflow-x:hidden;
+	min-height:516px;
+	max-height:650px;
+}
+.lbox ul li{
+	width: 1504px;
+	margin:0 auto;
+}
+
+@media screen and (max-width: 1500px) {
+    .lbox ul li{	
+		width: 1130px;
+		margin:0 auto;
+	}
+}
+
+.lbox ul li div{
+	width: 360px;
+	height:222px;
+	margin:16px 8px;
+	background-color: #1eb0ec;
+	border-radius: 8px;
+	display: inline-block;
+}
+
+.lbox ul li div .img-tag{
+	margin-top:34px;
+	text-align: center;
+}
+.lbox ul li div .status{
+	color:#fff;
+	font-size:15px;
+	text-align: center;
+}
+.lbox ul li div .type{
+	padding-left:16px;
+	color:#fff;
+	font-size:15px;
+	margin-top:36px;
+}
+
+
+.add-del{
+	margin-top:60px;
+	text-align: center;
+}
+.setsensor{
+	width:302px;
+	height:52px;
+	border:1px solid #299ceb;
+	border-radius:6px;
+	font-size: 15px;
+	color: #299ceb;
+	background: #fff;
+}
+
+.sen-warm{
+	background-image: url(../images/warm.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+.sen-prompt{
+	background-image: url(../images/prompt.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+.sen-empty{
+	background-image: url(../images/empty.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+
+.modal-body ul li{
+	float: left;
+	margin:10px 13px;
+}

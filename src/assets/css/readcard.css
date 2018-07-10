@@ -1,0 +1,40 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-15 14:06:52
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-26 15:10:48
+*/
+html,body{
+	height: 100%;
+}
+.panel{
+	border:0;
+}
+.panel-body .tipmsg{
+	box-sizing:border-box;
+	width:16%;
+	height:505px;
+	margin-top:10px;
+	padding:10px;
+	border-right:2px solid #e9ecf3;
+}
+
+.panel-body .path{
+	width:84%;
+}
+
+.panel-body .tipmsg h2{
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	color:#222;
+}
+.panel-body .tipmsg ul{
+	padding-left:16px;
+}
+.panel-body .tipmsg ul li{
+	list-style:disc;
+	min-height:32px;
+	line-height: 32px;
+
+}

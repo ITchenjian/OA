@@ -1,0 +1,226 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-18 10:34:29
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-05-08 14:14:45
+*/
+
+/* header */
+html,body{
+	height: 100%;
+}
+.wrapper{
+	/* min-width: 1350px; */
+	height: 100%;
+}
+.header{
+	width:100%;
+	height: 80px;
+	background-size: 100% 100%;
+	background: url(../images/header.png) no-repeat left top;
+}
+.header .logo{
+	width:371px;
+	height:100%;
+	background: url(../images/logo.png) no-repeat 20px center;
+}
+
+.header .navs li{
+	float:left;
+	text-align: center;
+}
+.header .navs li:hover{
+	background: #308bc5;
+}
+.header .navs li a{
+	display: block;
+	padding-top:10px;
+	width: 87px;
+	height:88px;
+}
+.header .navs li a.selected{
+	/* background: url(../images/navbg.png); */
+}
+.header .navs li a h2{
+	color:#d6e8f1;
+	height: 20px;
+	line-height: 20px;
+}
+
+.header .topright{
+	height: 80px;
+}
+.header .topright ul .user{
+	width:158px;
+	height:80px;
+	line-height: 80px;
+	padding-left:50px;
+	color:#e9f4f7;
+	font-size: 14px;
+	background: url(../images/user.png) no-repeat left center;
+}
+.header .topright ul .out{
+	width: 100px;
+	height:80px;
+	line-height: 80px;
+}
+.header .topright ul li em{
+	color: #fff;
+	font-weight: bold;
+	padding-right: 24px;
+}
+
+
+/* aside */
+.scrollbar{
+	max-height: 600px;
+	overflow-y:hidden; 
+}
+
+.main {
+	position: relative;
+	/* height: -webkit-calc(100% - 86px);
+	height: -moz-calc(100% - 86px);
+	height: calc(100% - 86px); */
+	/* background: #26354b; */
+	overflow: auto;
+	overflow-y:hidden; 
+}
+.main .aside {
+	min-height: 870px;
+	background: #26354b;
+}
+.main .aside .all {
+	width: 225px;
+}
+.main .aside .item {
+	/* border: 1px solid #ccc; */
+}
+.main .aside .panel {
+	margin-bottom: 0;
+	border-radius: 0;
+	border:0;
+}
+.aside .title {
+	width: 225px;
+	/* border-bottom: 1px solid #ccc; */
+}
+.aside .title h4 a {
+	display: block;
+	padding-left: 56px;
+	height: 60px;
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+	font-family: "Microsoft Yahei","Arial";
+	line-height: 60px;
+	background: #26354b;
+}
+.aside .title h4 .sceneicon {
+	background: #26354b url(../images/scene.png) no-repeat 16px center;
+}
+.aside .title h4 .sensoricon {
+	background: #26354b url(../images/sensor.png) no-repeat 16px center;
+}
+.aside .title h4 .equipicon {
+	background: #26354b url(../images/equip.png) no-repeat 16px center;
+}
+.aside .title h4 .logicon {
+	background: #26354b url(../images/log.png) no-repeat 16px center;
+}
+
+.aside .title h4 .pavilion {
+	background: #26354b url(../images/pavilion.png) no-repeat 16px center;
+}
+
+
+.aside .title h4 a i {
+	float: right;
+	padding-right: 10px;
+}
+.aside .body ul li{
+	background: #182230;
+}
+.aside .body ul li a {
+	display: block;
+	height: 39px;
+	/* border-bottom: 1px solid #ccc; */
+	padding-left: 70px;
+	color: #fff;
+	line-height: 38px;
+	font-size: 14px;
+}
+.aside .body ul .active {
+	background: #3aa5ef;
+}
+
+.main .content{
+	position: absolute;
+	padding:0px 16px;
+	top: 0;
+	bottom: 0;
+	left:225px;
+	right:0;
+	background: #e9ecf3;
+	/* overflow: auto; */
+	z-index: 1;
+	min-width: 1160px;
+	/* min-width: 1240px; */
+}
+
+.content iframe {
+	width: 100%;
+	height: 100%;
+	padding-top: 12px;
+}
+
+.footer{
+	height: 100px;
+	background: pink;
+}
+
+/* 收放侧边栏 */
+
+.dislpayArrow {
+    position: absolute;
+    top: 0;
+    left:225px;
+    bottom: 0;
+    width: 0px;
+    height: 100%;
+    z-index: 2;
+}
+
+
+.dislpayArrow a {
+    position: absolute;
+    display: block;
+    width: 17px;
+    height: 61px;
+    top: 50%;
+    margin-top: -30px;
+    outline: none;
+    background: url(../images/icon_arrow.png) no-repeat 0 0;
+    z-index: 2;
+}
+
+.dislpayArrow a:hover {
+    background-position: right 0;
+}
+.dislpayArrow a.open {
+    background-position: 0 -61px;
+}
+.dislpayArrow a.open:hover {
+    background-position: right -61px;
+}
+
+.big-page .content,.big-page .dislpayArrow,.big-page .breadcrumb{left:0px}
+/* .big-page .aside{ left:-200px}; */
+
+
+/* 其他 */
+/* .layui-layer-shade{
+	opacity: 0 !important;
+    filter: alpha(opacity=0) !important;
+} */
+

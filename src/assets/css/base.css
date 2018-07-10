@@ -1,0 +1,308 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-19 14:54:23
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-06-04 19:15:30
+*/
+html,body{
+	height:100%;
+
+}
+body{
+	/* background: #e9ecf3; */
+	background: #f2f5fb;
+}
+body::-webkit-scrollbar{
+    width: 0;
+}
+body{  
+    scrollbar-arrow-color: #e9ecf3; /**//*三角箭头的颜色*/   
+    scrollbar-face-color: #e9ecf3; /**//*立体滚动条的颜色*/   
+    scrollbar-3dlight-color: #e9ecf3; /**//*立体滚动条亮边的颜色*/   
+    scrollbar-highlight-color: #e9ecf3; /**//*滚动条空白部分的颜色*/   
+    scrollbar-shadow-color: #e9ecf3; /**//*立体滚动条阴影的颜色*/   
+    scrollbar-darkshadow-color: #e9ecf3; /**//*立体滚动条强阴影的颜色*/   
+    scrollbar-track-color: #e9ecf3; /**//*立体滚动条背景颜色*/   
+    scrollbar-base-color:#e9ecf3; /**//*滚动条的基本颜色*/   
+} 
+
+
+/* 验证 */
+.form-group {
+    margin-bottom: 2px;
+}
+.form_tip{
+	height:16px;
+	line-height:16px;
+}
+
+/* 位置预览隐藏 */
+.dnequ{
+	/* display: none; */
+}
+
+
+/* tab公共样式 */
+
+.nav-tabs{
+	background: #d4ebfb;
+	height:45px;
+	border:0;
+}
+.nav-tabs li.active a,.nav-tabs li.active a:hover{
+	display: inline-block;
+	color:#299ceb;
+	font-size: 14px;
+	border-radius: 0;
+	border:0;
+	margin-top:2px;
+	height:43px;
+	line-height:48px;
+	padding: 0 20px;
+	border-top: 2px solid #299ceb;
+}
+
+.nav-tabs li a{
+	display: inline-block;
+	color:#fff;
+	font-size: 14px;
+	border-radius: 0;
+	border:0;
+	margin-top:2px;
+	height:43px;
+	line-height:48px;
+	padding: 0 18px;
+}
+
+.tab-content{
+	padding:30px 40px;
+
+}
+
+/* 查询 */
+.tab-content label{
+	font-weight: 100;
+	color:#222;
+}
+
+/* btn */
+.btn{
+	border-radius: 18px;
+	padding: 6px 20px;
+	border:1px solid #299ceb;
+	color: #299ceb;
+}
+.btn-primary{
+	color: #fff;
+    background-color: #299ceb;
+    border-color: #299ceb;
+}
+
+/* table */
+.navtable .tab-content{
+	padding:30px 0 0 0;
+}
+.table thead{
+	background: #efedee;
+}
+.table>thead>tr>td,.table>tbody>tr>td{
+    border:0;
+    vertical-align: middle;
+    text-align: center;
+}
+.table>thead>tr>td{
+	color:#222;
+	font-size: 15px;
+}
+
+.table tbody tr td>a>span{
+	color:#299ceb;
+}
+
+/* 模态框 */
+/* modal-lg */
+.modal-backdrop.in {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px;
+    border: 0;
+    background: #bce4fe;
+    border-radius: 6px 6px 0 0;
+}
+.modal-header h4{
+	color:#222;
+	font-size:16px;
+}
+.modal-body{
+	max-height: 520px;
+	padding: 15px 20px;
+	overflow: auto;
+}
+.modal-content{
+	border:0;
+}
+.modal-footer{
+	border: 0;
+}
+
+.mapborder{
+	border:1px solid #999999;
+}
+
+.modal .modal-middle {
+    width: 430px;
+}
+
+/* modal-查看 */
+.m-left{
+	width: 45%;
+	font-size: 15px;
+	color:#222;
+}
+.m-left ul {
+	margin-bottom: 10px;
+}
+.m-left ul li{
+	padding: 4px;
+}
+.m-right{
+	width: 52%;
+	height:340px;
+	background: pink;
+}
+
+/* 电表--LED */
+.setcycle{
+	border:1px solid #e1e1e1;
+	padding:2px 8px;
+}
+
+/* 单项电表 */
+.detaildata{
+	margin-left:-4px;
+}
+.detaildata td{
+	padding:2px 4px;
+    text-align: center;
+    vertical-align: middle;
+}
+.detaildata td.oneitem{
+    text-align: left;
+}
+
+
+/* 类型设置 */
+.formimgbox{
+	width: 100%;
+	position: absolute;
+	top:378px;
+}
+
+/* 主题 */
+.boxbgcolor{
+	background: #fff;
+}
+
+.fontcolor{
+	color:#299ceb;
+}
+
+.marginbox{
+	height: 16px;
+	background: #e9ecf3;
+}
+.form-control{
+	border-radius: 2px;
+}
+label{
+	font-weight: 100;
+	color: #222;
+}
+
+
+
+/* tag */
+.type_00{
+	width:32px;
+	height:32px;
+	margin:0 auto;
+	border-radius:50%;
+	background:url(../images/senstatus/type_00.png) no-repeat center center;
+}
+.type_01{
+	width:32px;
+	height:32px;
+	margin:0 auto;
+	border-radius:50%;
+	background:url(../images/senstatus/type_01.png) no-repeat center center;
+}
+.type_02{
+	width:32px;
+	height:32px;
+	margin:0 auto;
+	border-radius:50%;
+	background:url(../images/senstatus/type_02.png) no-repeat center center;
+}
+.type_1{
+	width:32px;
+	height:32px;
+	margin:0 auto;
+	border-radius:50%;
+	background:url(../images/senstatus/type_1.png) no-repeat center center;
+}
+
+
+/* 体验馆 */
+canvas{
+	outline: none;
+}
+
+.dataitems .title div{
+	color:#299ceb;
+}
+
+/* .dataitems .conitems div{
+	width: 49%;
+	height:300px;
+	background: pink;
+} */
+
+
+.showBig{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -10;
+	background: #fff;
+
+
+}
+.btnClose{
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	right:0;
+	width:30px;
+	height:30px;
+}
+.btnClose:hover{
+	background: #8abdea;
+	color:#000;
+}
+
+.btnOpen{
+	position: absolute;
+	z-index: 3;
+	top: 0;
+	right:0;
+	width:30px;
+	height:30px;
+}
+.btnOpen:hover{
+	background: #8abdea;
+	color:#000;
+}

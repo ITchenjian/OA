@@ -1,0 +1,115 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-22 18:37:28
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-02-02 09:39:47
+*/
+.navtable .htitle{
+	padding-top:20px;
+}
+.htitle h1{
+	padding:6px 20px;
+	font-size: 15px;
+	/* color:#299ceb; */
+	background: #efedee;
+}
+.htitle h1 label{
+	padding-right:6px;
+	/* vertical-align: middle; */
+}
+.htitle h1 select{
+	border:1px solid #e1e1e1;
+	padding:4px 6px;
+	margin-right: 10px;
+	color:#3e3e3e;
+	/* vertical-align: middle; */
+}
+.htitle h1 input{
+	border: 1px solid #e1e1e1;
+    padding: 4px 6px;
+    color:#3e3e3e;
+}
+
+.navtable .tab-content{
+	padding:30px 30px 0 30px;
+}
+
+.tab-content h2{
+	font-size: 15px;
+	color:#299ceb;
+	padding:8px 0;
+}
+
+.tab-content ul li{
+	padding:4px 0;
+}
+.tab-content ul li label{
+	width:100px;
+}
+.tab-content ul li input{
+	border:1px solid #dbdbdb;
+	padding:4px 6px;
+	color:#3e3e3e;
+}
+.tab-content ul li .mininput{
+	margin-right:8px;
+}
+
+
+.tab-content ul li select{
+	width: 100px;
+	border:1px solid #e1e1e1;
+	padding:4px 6px;
+	margin-right: 40px;
+	vertical-align: middle;
+	color:#3e3e3e;
+}
+
+
+.margin{
+	height:20px;
+}
+
+
+.tab-content textarea{
+	border:1px solid #d1d1d1;
+	border-radius:4px;
+	padding:6px;
+	color:#3e3e3e;
+}
+.tab-content .param-one label{
+	width:80px;
+}
+.tab-content .param-one input{
+	margin-right:2px;
+}
+
+.tab-content .param-two input{
+	margin-right:40px;
+}
+
+.tab-content .setleft{
+	margin-right:180px;
+}
+.tab-content .setright .setid{
+	margin-right: 30px;
+}
+.tab-content .setright .setid ul{
+	border:1px solid #e1e1e1;
+	padding:8px;
+	width:220px;
+	height:300px;
+	overflow:auto;
+}
+.tab-content .setright .setid ul ol{
+	cursor: pointer;
+}
+
+
+.choseAct{
+	background: #3aa5ef;
+}
+
+#trueid .choseAct{
+	background: none;
+}

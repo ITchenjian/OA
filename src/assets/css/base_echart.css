@@ -1,0 +1,19 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-28 18:44:13
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-20 15:40:30
+*/
+.tabnavbox .tab-content{
+	padding:30px 0 0 0;
+}
+.tab-content .reportbox{
+	/* width:100%; */
+	height: 450px;
+}
+
+.tab-content .tbody{
+	height:100%;
+	width: 100%;
+}
+
